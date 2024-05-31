@@ -20,7 +20,7 @@ public class UserController {
     }
     @GetMapping("/adminnav")
     public String adminNavf() {
-        return "/AdminNavbar.html";
+        return "/AdminNavbar";
     }
 
     @GetMapping("/usersignup")

@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/docCONNECT.jar /app/docCONNECT.jar
 
 # Expose port 8080 to the outside world
-EXPOSE 8080
+EXPOSE 5000
 
 # Run the JAR file
 ENTRYPOINT ["java", "-jar", "docCONNECT.jar"]
